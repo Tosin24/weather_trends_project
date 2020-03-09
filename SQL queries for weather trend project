@@ -1,0 +1,18 @@
+#Query 1 : This query was used to access the list of city in the United States from the city_list data.
+SELECT *
+FROM city_list
+WHERE country IN ('United States');
+
+#Query 2: This query was used to extract all the columns where the city name is Long Beach
+SELECT *
+FROM city_data
+WHERE city IN ('Long Beach');
+
+#Query 3: This query was used to extract the average temperature between the year 1849 and 2013
+SELECT *
+FROM global_data
+WHERE year BETWEEN 1849 AND 2013;
+
+#Query 4: This query was used to extract all rows and columns from global data 
+SELECT *
+FROM global_data;
